@@ -44,4 +44,51 @@ Then the process of installing the agent on Windows
 
 <img width="1236" height="322" alt="image" src="https://github.com/user-attachments/assets/20d29e70-7256-49e3-a468-c7c5402e8d0b" />
 
+Successfully installed agent
+
+<img width="410" height="406" alt="image" src="https://github.com/user-attachments/assets/c1a186a1-7494-4c07-a0fe-6e5116979138" />
+
+
+<img width="1732" height="276" alt="image" src="https://github.com/user-attachments/assets/c69af293-b60b-45a7-9d1c-72bd7110bd50" />
+
+
+Now my task is to add policies in the Windows VM
+<img width="1690" height="242" alt="image" src="https://github.com/user-attachments/assets/06e016c2-e35e-4b9d-9aa4-40fc5e515820" />
+
+Next for Windows I want to download Sysmon for Windows
+
+
+cd "$env:USERPROFILE\Downloads\Sysmon"
+
+<img width="1187" height="436" alt="image" src="https://github.com/user-attachments/assets/acdcf32d-c485-4aa7-898f-e1d2bf849e1e" />
+
+Confirmation of it being there/installed
+
+<img width="1309" height="105" alt="image" src="https://github.com/user-attachments/assets/a92d2cfc-8aca-45f6-9d96-5d68c51575f8" />
+
+
+Now adding policies for the Kali Linux machine 
+
+
+
+<img width="1200" height="236" alt="image" src="https://github.com/user-attachments/assets/edfd085f-92f8-43ee-801f-381234e23781" />
+
+
+After adding policies for linux I confirmed through terminal that they were running.
+
+<img width="864" height="687" alt="image" src="https://github.com/user-attachments/assets/7a48d734-47ca-44eb-9e7c-f8ff6b5cf7e6" />
+
+
+Done and finally ready to start simulating attacks and learn about them but first I wanted to go over my many issues setting this up and there were many.
+
+My biggest issue was not understanding that all endpoint agents beloged on different VM's. To many who have alot of experience with virtualization and its concepts would know that easily but I literally struggled with that for 7 days. I was using A.I. and just simplying copying and pasting commands, while that can be helpful it makes things worse if you dont truly know what you're doing. 
+
+So I took a step back and read documentation from the official Elastic website, looked at their troubleshooting section and also watch Youtube videos of others doing what I wanted. 
+
+
+I dealt with expired tokens, the whole elastic site that I was hosting being down and having to reinstall that, learning how important Linux syntax is when writing commands down. 
+
+This task helped me alot be more hands on with what I have been using in Hack The Box instead of just logging into their boxes, showed me what I dont know and also what I need to learn.
+
+
 
