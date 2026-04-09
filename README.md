@@ -46,8 +46,6 @@ Then the process of installing the agent on Windows
 
 Successfully installed agent
 
-<img width="410" height="406" alt="image" src="https://github.com/user-attachments/assets/c1a186a1-7494-4c07-a0fe-6e5116979138" />
-
 
 <img width="1732" height="276" alt="image" src="https://github.com/user-attachments/assets/c69af293-b60b-45a7-9d1c-72bd7110bd50" />
 
